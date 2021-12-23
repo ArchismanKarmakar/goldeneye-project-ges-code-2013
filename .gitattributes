@@ -1,0 +1,20 @@
+* text=auto
+
+creategameprojects text eol=lf
+createallprojects text eol=lf
+xcode_ccache_wrapper text eol=lf
+vpc text eol=lf
+*.sh text eol=lf
+
+*.exe binary
+vpc_linux binary
+vpc_osx binary
+
+protoc binary
+ccache binary
+
+*.c diff=cpp
+*.cc diff=cpp
+*.cpp diff=cpp
+*.h diff=cpp
+*.hpp diff=cpp
